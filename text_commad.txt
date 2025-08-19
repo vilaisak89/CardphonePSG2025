@@ -17,7 +17,27 @@ Git
     - git pull                   = ຄຳສັ່ງ ອັບເດດ ໂຄດລ່າສຸດຈາກ github
 
     - git add . && git commit -m "ຄຳອະທິບາຍ" && git push
-
+    
+Laravel JWT Auth
     - composer require php-open-source-saver/jwt-auth
     - php artisan vendor:publish --provider="PHPOpenSourceSaver\JWTAuth\Providers\LaravelServiceProvider"
     - php artisan jwt:secret
+
+Cleave
+    - Run > npm i vue-cleave-component
+    - app.js > import Cleave from 'vue-cleave-component'; > app.use(Cleave);
+    - data() {
+        return {
+            options: {
+                numeral: true,
+                numeralPositiveOnly: true,
+                noImmediatePrefix: true,
+                rawValueTrimPrefix: true,
+                numeralIntegerScale: 10,
+                numeralDecimalScale: 2,
+                numeralDecimalMark: '.',
+                delimiter: ','
+            }
+        }
+    },
+    - Example use: <cleave :options="options" id="emailBackdrop" v-model="FormCardprice.price" class="form-control" placeholder="ປ້ອນລາຄາບັດໂທລະສັບ" />

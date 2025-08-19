@@ -1,0 +1,25 @@
+PHONESACK GROUP Co., Ltd
+XPPL Coal Selling Support
+Xekong Thermal Power Plant Co., Ltd	
+KM18&KM44	Chaluen Agriculture Promotion CO.,LTD
+
+All Table
+
+1.  company
+    -name_company
+    -fullname_company
+    -remark
+
+2.  deparment
+    -company_id
+    -name_deparment
+
+3.  employee
+    -employee_name
+    -employee_image
+    -cost_center
+    -gl_account
+    -position
+    -deparment_id
+    -company_id
+4.
